@@ -92,6 +92,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -2411,6 +2412,14 @@ input, select, textarea {
 
 /* Image */
 
+	.prof > img {
+		position: relative;
+		left: 19px;
+		/* height: 500px; */
+		object-fit:cover;
+		height: 24rem;
+	}
+
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -2463,7 +2472,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-	
+
 /* List */
 
 	ol {
